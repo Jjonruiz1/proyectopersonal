@@ -1,0 +1,219 @@
+
+*{background-color: black}
+.rrss{
+background-color: white;}
+a,p,h1,h2,label,legend{color: white;}
+
+
+div {
+  border: 5p black;
+  margin: 0;
+}
+.cajita {width: 30px;
+height: 50px;}
+.cajita img {width: 99%
+  ;
+height: 500px;
+
+
+}
+
+
+.cajita1 {
+  height: 50px;
+  top: 200px;
+  bottom: 300px;
+}
+
+.cajitafoto {
+  height: 500px;
+  top: 200px;
+  bottom: 300px;
+}
+
+
+
+
+.cajita {width: 30px;}
+.cajita-cajita >main {width: 120px;}
+
+
+.nav-menu > ul {
+    
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    padding-right: 50px;
+  }
+
+
+.nav-menu > ul > li > a
+
+  {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 350;
+    color: white;
+    line-height: 0;
+    padding-right: 40px;
+}
+
+.nav-footer > ul {
+    
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;justify-content: space-around; width: 80%;
+}
+
+.nav-footer1 > ul
+
+{
+    
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+  .nav-footer > ul > li > a {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: white;
+    line-height: 0;
+  }
+
+  .titulo-perfil{
+    display:flex;
+  }
+  .titulo-izquierda {
+    width: 35%;
+  }
+  .titulo-derecha {
+    width: 35%;
+    
+  }
+
+    .titulo-perfil > div > h1{
+      color:white;
+      list-style-type: none;
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+      flex-wrap: wrap; 
+      font-size: 50px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-style: normal;
+      font-weight: 350;
+      line-height: 1;
+      text-align: center;
+    }
+
+
+    .titulo-perfil > div > h2{
+      color:white;
+      list-style-type: none;
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+      flex-wrap: wrap; 
+      font-size: 30px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-style: normal;
+      font-weight: 350;
+      line-height: 1;
+      text-align: center;
+    }
+  .titulo-perfil {
+    color:white;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 350;
+    line-height: 1;
+    padding-right: 200 px;
+    padding-left: 200 px ;
+    text-align: center;
+  }
+
+ 
+
+  .column > a > img,
+  .carruseles > img {
+    width: 100%;
+  }
+
+.cajita3 > h2 
+
+{
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 350;
+  color: white;
+  line-height: 0;
+  padding-left: 40px;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap; 
+  padding-right: 50px;
+
+}
+    
+    /*duda*/
+.linkdn > img {
+  height: 800px;
+  top: 200px;
+  bottom: 300px;
+}
+      
+.lkdn {width: 150px;
+  height: 150px;}   
+    
+.centro 
+{width: 150px;
+  height: 150px;
+justify-content: center; 
+
+ 
+}
+
+.titulo-perfil1{
+  display:flex;
+  color:white;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap; 
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 350;
+  line-height: 1;
+  text-align: left;
+
+
+.titulo-perfil1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: :left;
+  margin-top: 5px;
+}
+.titulo-perfil1 img {
+width: 15px;
+margin: 15px
