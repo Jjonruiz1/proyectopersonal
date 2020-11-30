@@ -1,54 +1,33 @@
+/*color fondo y letra*/
 
 *{background-color: black}
-.rrss{
-background-color: white;}
 a,p,h1,h2,label,legend{color: white;}
 
+/*medidas y posicion logo*/
 
-div {
-  border: 5p black;
-  margin: 0;
-}
 .cajita {width: 30px;
 height: 50px;}
-.cajita img {width: 99%
-  ;
-height: 500px;
 
+ /* tamaño y posicion de imagenes portfolio (carrusel y ventanas)*/
 
-}
+ .column > a > img,
+ .carruseles > img {
+   width: 100%; 
+   margin: 10px 10px 10px 10px;
+ }
 
-
-.cajita1 {
-  height: 50px;
-  top: 200px;
-  bottom: 300px;
-}
-
-.cajitafoto {
-  height: 500px;
-  top: 200px;
-  bottom: 300px;
-}
-
-
-
-
-.cajita {width: 30px;}
-.cajita-cajita >main {width: 120px;}
-
+/*posicionamiento carrusel superior*/
 
 .nav-menu > ul {
-    
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap; 
-    padding-right: 50px;
-  }
+  justify-content: center;
+  padding-right: 50px;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; 
+}
 
-
+/*estilo carrusel superior*/
 .nav-menu > ul > li > a
 
   {
@@ -61,6 +40,8 @@ height: 500px;
     padding-right: 40px;
 }
 
+/*posicionamiento carrusel inferior*/
+
 .nav-footer > ul {
     
   list-style-type: none;
@@ -70,16 +51,7 @@ height: 500px;
   flex-wrap: wrap;justify-content: space-around; width: 80%;
 }
 
-.nav-footer1 > ul
-
-{
-    
-  list-style-type: none;
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
+/*estilo carrusel inferior*/
 
   .nav-footer > ul > li > a {
     font-size: 20px;
@@ -89,17 +61,28 @@ height: 500px;
     color: white;
     line-height: 0;
   }
+/*se acomoda a estilo de pantala*/
 
   .titulo-perfil{
     display:flex;
   }
+/*tamaño y posicion foto sobre mi*/
+
   .titulo-izquierda {
-    width: 35%;
+    width: 75%;
   }
+  .cajitafoto {
+    height: 500px;
+    top: 200px;
+    bottom: 300px;
+  }
+
+/* tamaño texto sobre mi */
+
   .titulo-derecha {
-    width: 35%;
-    
+    width: 55%;
   }
+/* estilo y posicion texto sobre mi */
 
     .titulo-perfil > div > h1{
       color:white;
@@ -115,8 +98,6 @@ height: 500px;
       line-height: 1;
       text-align: center;
     }
-
-
     .titulo-perfil > div > h2{
       color:white;
       list-style-type: none;
@@ -131,89 +112,46 @@ height: 500px;
       line-height: 1;
       text-align: center;
     }
-  .titulo-perfil {
-    color:white;
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    flex-wrap: wrap; 
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: normal;
-    font-weight: 350;
-    line-height: 1;
-    padding-right: 200 px;
-    padding-left: 200 px ;
-    text-align: center;
+    .titulo-perfil  {
+      color:white;
+      list-style-type: none;
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+      flex-wrap: wrap; 
+      font-size: 15px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-style: normal;
+      font-weight: 350;
+      line-height: 1;
+      padding-right: 200 px;
+      padding-left: 200 px ;
+      text-align: center;
+    }
+ /*tamaño y posicion RRSS (lknd-ig)*/
+
+    .centro 
+    {width: 40px;
+    height: 40px;
+    justify-content: center;  
+    }
+     
+   main, header, footer{
+     width: 480px;
+     margin: 0 auto;
+   } 
+/*medias query 769px a 1200px*/
+
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+  main, header, footer{
+    width: 768px;
   }
-
- 
-
-  .column > a > img,
-  .carruseles > img {
-    width: 100%;
-  }
-
-.cajita3 > h2 
-
-{
-  font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: 350;
-  color: white;
-  line-height: 0;
-  padding-left: 40px;
-  list-style-type: none;
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  flex-wrap: wrap; 
-  padding-right: 50px;
-
 }
-    
-    /*duda*/
-.linkdn > img {
-  height: 800px;
-  top: 200px;
-  bottom: 300px;
-}
-      
-.lkdn {width: 150px;
-  height: 150px;}   
-    
-.centro 
-{width: 150px;
-  height: 150px;
-justify-content: center; 
-
- 
-}
-
-.titulo-perfil1{
-  display:flex;
-  color:white;
-  list-style-type: none;
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  flex-wrap: wrap; 
-  font-size: 30px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-style: normal;
-  font-weight: 350;
-  line-height: 1;
-  text-align: left;
+/*medias query 769px a 1201px*/
+@media screen and (min-width: 1201px) {}
 
 
-.titulo-perfil1 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: :left;
-  margin-top: 5px;
-}
-.titulo-perfil1 img {
-width: 15px;
-margin: 15px
+
+
+
+
